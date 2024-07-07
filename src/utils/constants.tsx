@@ -1,0 +1,2 @@
+
+export const GR8FIT_APP_STATE = "GR8FIT_APP_STATE";
