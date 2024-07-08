@@ -4,17 +4,13 @@ It monitors various metrics such as users' locations, steps taken, calories burn
 The app then securely uploads this data to a Firebase leaderboard, allowing users to track their progress and compete with others.
 
 Features
-1. Activity Tracking: Utilizes Android and iOS activity APIs to monitor users' fitness activities.
-   
-
-
+1. Activity Tracking: Utilizes Android and iOS map APIs to track users' location.
 <p align="center">
   <img src="https://github.com/arinze96/gr8fit-b-fetch./assets/92803301/25d8e6ac-714f-46ee-bbfc-b98db4ad41c9" width="300" height="600" alt="Screenshot 1">
   <img src="https://github.com/arinze96/gr8fit-b-fetch./assets/92803301/ba89e3d9-3fae-436f-8b55-d249d77162bc" width="300" height="600" alt="Screenshot 2">
    <img src="https://github.com/arinze96/gr8fit-b-fetch./assets/92803301/9afd8ec1-9fd5-4662-8c74-eb883ead430b" width="300" height="600" alt="Screenshot 2">
 </p>
 
-  
 2. Real-time Metrics: Tracks locations, steps, calories burned, and distance walked.
 
  <p align="center">
@@ -36,9 +32,20 @@ Clone the repository:
 git clone https://github.com/your/repository.git.
 Navigate to the project directory:
 cd Gr8fit-B-Fetch
-Open the project in Android Studio or Xcode depending on your platform.
+create a file in the root folder named envdata.ts and add your google api key and firebase credentials in this format
+export const envdata = {
+  GOOGLE_API_KEY: "...",
+  FIREBASE_API_KEY: "...",
+  AUTH_DOMAIN: "...",
+  PROJECT_ID: "...",
+  STORAGE_BUCKET: "...",
+  MESSAGING_SENDER_ID: "...",
+  FIREBASE_APP_ID: "..."
+};
+run npm install to install all dependencies
+Build and run the app on your devicein Android eulator or ios simulator depending on your platform by running [npm run ios] or [npm run android]
 
-Build and run the app on your device.
+
 
 Usage
 Once installed, Gr8fit-B-Fetch will start tracking your fitness activities automatically using
