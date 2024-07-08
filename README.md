@@ -1,4 +1,5 @@
 Gr8fit-B-Fetch
+
 Gr8fit-B-Fetch is a mobile application designed to track users' fitness activities using Android and iOS activity APIs. 
 It monitors various metrics such as users' locations, steps taken, calories burned, and distance walked in real-time. 
 The app then securely uploads this data to a Firebase leaderboard, allowing users to track their progress and compete with others.
