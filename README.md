@@ -7,9 +7,11 @@ Features
 1. Activity Tracking: Utilizes Android and iOS activity APIs to monitor users' fitness activities.
    
 
+
 <p align="center">
-  <img src="https://github.com/arinze96/gr8fit-b-fetch/raw/main/assets/92803301/a234deb9-e919-4cb2-9666-69e0324ec585" width="300" height="600" alt="Screenshot 1">
-  <img src="https://github.com/arinze96/gr8fit-b-fetch/raw/main/assets/92803301/7775b987-db38-4b4a-aa75-f0cb2d7ba581" width="300" height="600" alt="Screenshot 2">
+  <img src="https://github.com/arinze96/gr8fit-b-fetch./assets/92803301/25d8e6ac-714f-46ee-bbfc-b98db4ad41c9" width="300" height="600" alt="Screenshot 1">
+  <img src="https://github.com/arinze96/gr8fit-b-fetch./assets/92803301/ba89e3d9-3fae-436f-8b55-d249d77162bc" width="300" height="600" alt="Screenshot 2">
+   <img src="https://github.com/arinze96/gr8fit-b-fetch./assets/92803301/9afd8ec1-9fd5-4662-8c74-eb883ead430b" width="300" height="600" alt="Screenshot 2">
 </p>
 
   
